@@ -1,7 +1,6 @@
 {
-  "name": "dang-thats-delicious",
+  "name": "primerose",
   "version": "0.0.0",
-  "private": true,
   "engines": {
     "node": ">= 7.6.0"
   },
