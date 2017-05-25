@@ -32,7 +32,7 @@ const uglify = new webpack.optimize.UglifyJsPlugin({ // eslint-disable-line
 
 const config = {
   entry: {
-    App: './public/javascripts/primerose-app.js'
+    App: './public/js/primerose-app.js'
   },
   devtool: 'source-map',
   output: {
