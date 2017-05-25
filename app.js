@@ -66,7 +66,7 @@ app.use((req, res, next) => {
 });
 
 // handle routes!
-// app.use('/', routes);
+app.use('/', routes);
 
 // If above routes didnt work,404 and forward to error handler
 // app.use(errorHandlers.notFound);
