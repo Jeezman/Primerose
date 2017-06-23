@@ -6,4 +6,10 @@ router.get('/', (req, res) => {
   res.send('Hey! It works!');
 });
 
+router.get('/tobs', (req, res) => {
+  const bigtobz = { name: 'Tobi Adeyemi', age: 26};
+
+  res.json(bigtobz);
+})
+
 module.exports = router;
